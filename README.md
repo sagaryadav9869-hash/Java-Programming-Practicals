@@ -1,20 +1,29 @@
-☕ Java-Programming-Practicals📌 Repository DescriptionA structured repository of foundational Core Java Programming Practicals, source files, and output breakdowns—covering basic syntax, primitive data types, arithmetic/relational/logical operators, conditional branching, iterative loops, arrays, console input handling, and Object-Oriented Programming (OOP) principles.GitHub About Description:Structured Core Java programming practicals covering data types, operators, control flow, loops, arrays, Scanner input, and OOP concepts (classes, constructors, and encapsulation).🗂️ Repository StructureJava-Programming-Practicals/
+# Java-Programming-Practicals
+
+![Java](https://img.shields.io/badge/Language-Java-orange?style=flat-square&logo=openjdk)
+![OOP](https://img.shields.io/badge/Paradigm-Object--Oriented-blue?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
+
+A structured collection of **Core Java** practical programs covering foundational syntax, primitive data types, operators, conditional logic, iterative loops, arrays, console input handling, and Object-Oriented Programming (OOP) principles.
+
+---
+
+## 📂 Repository Structure
+
+```text
+Java-Programming-Practicals/
 ├── README.md
-├── Demo.java          # Hello World program
-├── Student.java       # Variable declaration & basic addition
-├── Solution.java      # Primitive & reference data types
-├── Q2.java            # Arithmetic operators calculator
-├── Q3.java            # Average of five numbers
-├── Q4.java            # Relational operators demonstration
-├── Q5.java            # Logical operators demonstration
-├── Q6.java            # Even or Odd checker (if-else)
-├── Q7.java            # Print even numbers from 1 to 100
-├── Q8.java            # Leap year checker using Scanner
+├── Demo.java          # Basic Hello World output
+├── Student.java       # Variable declaration & arithmetic
+├── Solution.java      # Primitive data types & strings
+├── Q2.java            # Arithmetic operators
+├── Q3.java            # Average calculation using doubles
+├── Q4.java            # Relational / comparison operators
+├── Q5.java            # Logical operators (&&, ||, !)
+├── Q6.java            # Even or odd check (if-else)
+├── Q7.java            # Print even numbers 1–100 (for loop)
+├── Q8.java            # Leap year checker with Scanner input
 ├── Q9.java            # Optimized prime number checker
-├── Q10.java           # Solar system planets array traversal
-├── Demo2.java         # Classroom OOP model (capacity & occupancy)
-└── ATM.java           # ATM banking simulation (encapsulation)
-📊 Practicals Overview#Practical TopicSource FileKey Concepts & ImplementationsSample Output1Hello WorldDemo.javaClass structure, main() entry point, System.out.println()Hello World2Variables & AdditionStudent.javaVariable declaration (int, boolean, String), integer addition253Primitive & Reference TypesSolution.javaData types (int, float, double, char, boolean, String)Integer value: 42 ...4Arithmetic OperatorsQ2.javaBasic math operators (+, -, *, /, %)Sum: 15, Difference: 5 ...5Average CalculatorQ3.javaFloating-point (double) arithmetic, summation & divisionThe average is: 30.06Relational OperatorsQ4.javaComparison operators (==, !=, >, <, >=, <=)a == b: false, a != b: true ...7Logical OperatorsQ5.javaBoolean logic (&&, ||, !)condition1 && condition2: false ...8Even or Odd CheckerQ6.javaConditional branching (if-else), modulus operator (%)7 is odd.9Even Numbers (1–100)Q7.javaIterative for loop, conditional filtering2, 4, 6, ..., 10010Leap Year CheckerQ8.javaConsole input (java.util.Scanner), compound boolean conditions2024 is a leap year.11Prime Number CheckerQ9.javaStatic helper methods, int[] array traversal, $6k \pm 1$ optimization17 is a prime number.12Solar System PlanetsQ10.javaString[] array initialization, enhanced for-each loopMercury, Venus, ..., Neptune13Classroom Model (OOP)Demo2.javaCustom Classroom class, object instantiation, explicit type castingCapacity: 67, Occupancy: 100.0%14ATM Simulation (OOP)ATM.javaEncapsulation (private fields), parameterized constructor, validationFinal Balance: 7000.0🧩 Core Java Concepts CoveredConcept CategoryTopics & Features DemonstratedApplicable PracticalsJava Basics & Data Typesmain() method, int, float, double, char, boolean, StringDemo.java, Student.java, Solution.javaOperators & ExpressionsArithmetic (+, -, *, /, %), Relational (==, !=, <, >), Logical (&&, ||, !)Q2.java, Q3.java, Q4.java, Q5.javaControl Flow & Loopsif-else statements, for loops, enhanced for-each loopsQ6.java, Q7.java, Q8.java, Q10.javaInput & MethodsScanner input stream handling, static methods, algorithmic optimization ($O(\sqrt{n})$)Q8.java, Q9.javaArrays1D int[] and String[] declaration, initialization, and iterationQ9.java, Q10.javaObject-Oriented ProgrammingCustom classes, objects, constructors, access modifiers (private), encapsulationDemo2.java, ATM.java🛠️ Tools & Technologies UsedCategoryTools / TechnologiesProgramming LanguageJava (JDK 11+)Libraries & Packagesjava.lang, java.util.ScannerCompiler & Runtimejavac (Java Compiler) & JVM (Java Virtual Machine)IDEs & Code EditorsVisual Studio Code, IntelliJ IDEA, EclipseVersion ControlGit & GitHub🚀 How to Use & RunClone the repository:git clone https://github.com/your-username/Java-Programming-Practicals.git
-cd Java-Programming-Practicals
-Compile any Java practical file:javac ATM.java
-Run the compiled bytecode:java ATM
+├── Q10.java           # Array traversal using enhanced for-loop
+├── Demo2.java         # Custom Classroom class & occupancy rate
+└── ATM.java           # Encapsulated ATM banking simulation
